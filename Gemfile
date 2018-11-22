@@ -17,6 +17,13 @@ gem 'rails_12factor', group: :production
 # Stripe
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 
+#activeadmin for admin system
+gem 'activeadmin', :git =>'https://github.com/activeadmin/activeadmin'
+gem 'inherited_resources', :git =>'https://github.com/activeadmin/inherited_resources'
+
+#devise for user authentication
+gem 'devise'
+
 #add Bootstrap
 gem 'bootstrap-sass'
 
